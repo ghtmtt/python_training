@@ -1,5 +1,7 @@
 s = 'john'
 
+m = 10
+
 # print(dir(s))
 
 s = s.upper()
