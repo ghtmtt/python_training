@@ -103,12 +103,15 @@ class Employee:
 
         self.paycheck = self.paycheck + (self.paycheck * number)
 
+
 mario = Employee('Mario', 1000)
 print(mario.name)
 print(mario.paycheck)
 
 mario.raise_paycheck(0.1)
 print(mario.paycheck)
+
+print('I am here')
 
 
 
